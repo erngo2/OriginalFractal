@@ -22,7 +22,7 @@ public void mousePressed(){
 int b = 0;
 public void fracD(float x, float y, float siz){
   fill((float)Math.random() * 255,(float) Math.random() * 255,(float) Math.random() * 255);
-    circle(x, y, siz);
+    rect(x, y, siz, siz);
   if(siz > 5){
     fracD(x - siz/2, y - siz/2, siz/2.1);
     fracD(x + siz/2, y - siz/2, siz/2.1);
